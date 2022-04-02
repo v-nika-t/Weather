@@ -55,6 +55,7 @@ async function getWeather(lat,lng, key) {// получить данные пог
 };
 
 function addkWeatherOnDocument(weatherDate = [], blockWherePut) {// добавляем блоки с погодой на страницу
+    blockWherePut.innerHTML = "";
     weatherDate.forEach( (day) => {
         let div = document.createElement('div');
         div.innerText = `${day.date} ${day.month}, ${day.weekday}
