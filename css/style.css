@@ -1,0 +1,11 @@
+#weather div{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    margin:20px;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
